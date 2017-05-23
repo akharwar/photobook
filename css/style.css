@@ -1,0 +1,469 @@
+/*{
+   outline: 1px solid red !important;
+}*/
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/********* col define *********/
+
+.col-lg-1 ,.col-lg-2,.col-lg-3 ,.col-lg-4 ,.col-lg-5, .col-lg-6, .col-lg-7,.col-lg-8, .col-lg-9, .col-lg-10,
+.col-lg-11, .col-lg-12,.col-md-1 ,.col-md-2,.col-md-3 ,.col-md-4 ,.col-md-5, .col-md-6, .col-md-7,.col-md-8, .col-md-9, .col-md-10,.col-md-11, .col-md-12  {
+    padding: 0;
+}
+
+/********* end col define *********/
+
+/********* row *********/
+
+.row{
+    width:100%;
+    height:auto;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+}
+
+/********* end row *********/
+
+
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+    text-align: center;
+}
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #ffffff;
+}
+
+.container{
+    padding:0;
+    margin:0;
+    width: 100%;
+    height:100%;
+}
+
+/********* create photobook buttun *********/
+
+.create-photobook {
+    border:1px solid #000000;
+    width: 377px;
+    height: 66px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.btn1 {
+    background-color: transparent;
+}
+
+.btn2 {
+    background-color: #e11a27;
+    color: white;
+}
+
+.col-lg-12.bton {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+/********* end  create photobook button *********/
+
+
+/********* manu header *********/
+
+.menu-header{
+    height: 80px;
+    vertical-align: middle;
+    padding: 20px 0;
+}
+
+.menu-heading {
+    padding: 5px 40px;
+}
+
+.menu-button {
+    padding: 5px 0;
+}
+
+.menu-button button{
+    float: right;
+    background-color: transparent;
+    border: hidden;
+}
+
+.menu-account{
+    padding-right: 40px;
+}
+
+.menu-account button{
+    float: right;
+    background-color: #ffd200;
+    border-radius: 10px;
+    height: 37px;
+    padding: 0 25px;
+}
+
+.menu-account button span {
+        color:  #212121;
+        font-size: 16px;/* Approximation due to font substitution */
+        font-weight: 300;
+        line-height: 0.01px;/* Approximation due to font substitution */
+        text-align: left;
+        border-style:dotted;
+        border-width: 0px 0px 1px 0px;
+}
+
+.menu-logout{
+    padding-top: 5px;
+}
+
+.menu-logout button{
+    background-color: transparent;
+    border: hidden;
+}
+
+/********* end menu header *********/
+
+
+/********* front page *********/
+
+.front-page{
+    background-image: url(../image/main-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 56px 100px;
+    text-align: center;
+    height: 547px;
+}
+
+.front-page h1{
+    font-size: 60px;
+    font-variant: small-caps;
+    font-weight: 200;
+    font-family: inherit;
+    margin: 0px;
+}
+
+.front-page p{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px 0 60px 0;
+}
+
+/********* end front page *********/
+
+
+/********* walk through *********/
+
+.walk-through{
+    padding: 100px 100px;
+}
+.walk {
+    width: 12%;
+}
+.walk h2{
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 300;
+}
+.walk.download {
+    margin-left: 145px;
+}
+.circle-btn{
+    border-radius: 70px;
+    width: 140px;
+    height: 140px;
+    border: 2px solid #ffcc00;
+    background-color: transparent;
+}
+.connecting_line{
+    font-size: 35px;
+    color: #fcd40a;
+    margin: 4% 0;
+    font-weight: 600;
+}
+/********* end walk through *********/
+
+
+/********* advantage *********/
+
+.advantage{
+    height: 817px;
+    background-color: #f3f0e7;
+    text-align: center;
+    padding: 35px 150px;
+  /*  padding: 75px 218px; */
+}
+
+.advantage h1{
+    font-weight: 300;
+    font-size: 66px;
+    font-variant: small-caps;
+    margin: 0px;
+}
+
+.tile {
+    padding: 10px 40px;
+}
+
+.tile h3{
+    font-weight: 400;
+        font-size: 24px;
+    padding: 20px 0px;
+}
+
+.tile p{
+    font-weight: 400;
+    font-size:16px;
+}
+
+/********* end advantage *********/
+
+
+/********* solution *********/
+
+.solutions{
+    padding: 35px 100px 60px 100px;
+}
+
+.solutions h1{
+    text-align: center;
+    font-variant: small-caps;
+    margin: 10px 0 40px 0;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.solutions h5 span {
+    text-align: center;
+    background-color: #ffd200;
+    padding: 5px 40px;
+    color:#e11a27;
+    font-weight: bold;
+}
+
+.solutions h5 #slant-left{
+    font-size: 0px; line-height: 0%; width: 0px;
+    border-top: 20px solid white;
+    border-right: 20px solid #ffd200;
+    padding: 0 0 3px 0;
+}
+
+.solutions h5 #slant-right{
+    font-size: 0px; line-height: 0%; width: 0px;
+    border-top: 20px solid white;
+    border-left: 20px solid #ffd200;
+    padding: 0 0 3px 0;
+}
+
+.Book{
+    margin: 0 50px;
+    border: 4px solid #ffd200;
+    border-radius: 14px;
+    height: 354px;
+    position: relative;
+}
+
+.Book h2{
+    background-color:#ffd200;
+    border-radius: 10px 10px 0 0;
+    font-variant: small-caps;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.Book ul{
+    list-style-type: none;  /*
+    padding: 10px;   */
+    position: absolute;
+    top: 100px;
+}
+
+.Book p{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 300;
+    position: absolute;
+    bottom: 25px;
+    left: 30%;
+}
+
+.Book h3{
+    background-color:#ffd200;
+    border-radius:0 0 10px 10px ;
+    padding:10px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.Book h3 span{
+    font-variant: small-caps;
+}
+
+/********* end solution *********/
+
+
+/********* Testimonial *********/
+
+.Testimonials{
+    background-image: url(../image/testimonial_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 150px;
+}
+
+.Testimonials h1{
+    text-align: left;
+    font-variant: small-caps;
+    font-size:60px;
+    font-weight: 300;
+    margin: 10px 0 20px 0;
+}
+
+.veiw p{
+    margin:10px;
+}
+
+.veiw a{
+    float: right;
+    color: black;
+}
+
+.profile-information{
+    vertical-align: middle;
+    margin: 50px 0;
+}
+
+.profile-information h3{
+    text-align: left;
+    margin: 0 10px;
+}
+
+.profile-information p{
+    margin: 0 10px;
+}
+
+/********* end testimonial *********/
+
+
+/********* term-payment-shiping *********/
+
+.term-payment-shiping{
+    padding: 35px 100px;
+}
+
+.card{
+    padding: 0 50px;
+}
+
+.card h2 {
+    background-color: #ffd200;
+    font-variant: small-caps;
+    border-radius: 10px 10px 0 0;
+    font-size: 36px;
+    padding: 5px 0;
+    font-weight: 400;
+}
+
+.card .detail{
+    background-color: #f7f0e6;
+    border: 2px solid white;
+    border-radius: 0 0 10px 10px;
+    border-top-width: 4px;
+    padding: 30px;
+}
+
+.detail span{
+    color: #e11a27;
+    font-weight: 700;
+}
+
+.detail #smallcap {
+    font-variant: small-caps;
+}
+
+
+/****/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/****/
+
+/********* end term-payment-shiping *********/
+
+
+/********* footer *********/
+
+.footer{
+    padding: 35px 100px;
+    text-align: left;
+    background-color: #ffd200;
+    font-weight: 300;
+}
+
+.f-menu {
+    padding-right: 50px;
+}
+
+.f-menu hr{
+    border-top-color: #000000;
+}
+
+.f-menu h5{
+    text-align: left;
+    font-size: 16px;
+}
+
+#smallcap.f-menu h5 {
+    font-variant: small-caps;
+}
+
+.f-social{
+    float: right;
+    padding-right: 50px;
+}
+
+.f-social hr{
+    border-top-color: #000000;
+}
+
+#social-media img{
+    margin:0 20px 10px 0;
+}
+
+.asanov{
+    border:1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    margin: 10px 0;
+}
+
+.asanov span{
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.asanov img{
+    margin: 10px 0;
+}
+
+/*<!--end footer -->*/
