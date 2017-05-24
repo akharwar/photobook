@@ -222,6 +222,7 @@ body{
 
 .tile {
     padding: 1% 4%;
+    margin: 5% auto;
 }
 
 .tile img {
@@ -231,7 +232,7 @@ body{
 .tile h3{
     font-weight: 400;
     font-size: 24px;
-    padding: 2% 0;
+    padding: 10% 0 2%;
 }
 
 .tile p{
@@ -327,7 +328,7 @@ body{
     left: 30%;
 }
 
-.Book div h3{
+.Book h3{
     background-color:#ffd200;
     border-radius:0 0 10px 10px ;
     padding:1% 0;
@@ -337,10 +338,9 @@ body{
     right: 0;
 }
 
-.Book div h3 span{
+.Book h3 span{
     font-variant: small-caps;
 }
-
 /********* end solution *********/
 
 
